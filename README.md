@@ -45,7 +45,7 @@ return [
 
 ```
 
-## Basic example
+## Basic Tutorial
 
 ### Route Page example
      
@@ -111,5 +111,6 @@ exit();
 
 ```
 
+## Basic example
 
 
