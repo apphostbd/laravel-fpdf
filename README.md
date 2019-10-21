@@ -59,7 +59,26 @@ return [
      });
 
 ```
+### Controller Page example
+
+```php
+namespace App\Http\Controllers;
+
+use Fpdf;
+
+class TestController extends Controller
+{
+    public function test(){
+        Fpdf::AddPage();
+        Fpdf::SetFont('Courier', 'B', 18);
+        Fpdf::Cell(50, 25, 'Hello World!');
+        Fpdf::Output();
+        exit;
+    }
+
+}
 
 
 
+```
 
