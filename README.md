@@ -144,8 +144,12 @@ Fpdf::Output();
 exit();
 
 ```
-Out put Example 1 click here demo
+
+Out put Example 1 click here [Example 1 pdf](src/Fpdf/demo/pdf/example1.pdf "Example 1 pdf")
+
 Screenshot PDF
-![Demo](https://user-images.githubusercontent.com/53516648/67213448-da0e5480-f43f-11e9-9a34-7cef857389b3.png)
+![Example 1 pdf](src/Fpdf/demo/screenshot/demo1.png)
+
+
 
 
