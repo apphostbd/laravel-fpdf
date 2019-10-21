@@ -34,7 +34,7 @@ Enjoy the auto discovery feature.
 ### Laravel <5.5
 `config/app.php`
 
-```php
+```
 // config/app.php
 
 return [
@@ -49,6 +49,7 @@ return [
     'aliases' => [
         'Fpdf' => Codedge\Fpdf\Facades\Fpdf::class,
      ]
+
 ```
 
 
