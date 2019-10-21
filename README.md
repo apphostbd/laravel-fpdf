@@ -144,3 +144,8 @@ Fpdf::Output();
 exit();
 
 ```
+Out put Example 1 click here demo
+Screenshot PDF
+![Demo](https://user-images.githubusercontent.com/53516648/67213448-da0e5480-f43f-11e9-9a34-7cef857389b3.png)
+
+
