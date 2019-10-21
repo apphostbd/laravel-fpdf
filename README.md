@@ -108,9 +108,36 @@ Fpdf::Cell(50, 25, 'Hello World!');
 Fpdf::Output();
 exit();
 
-
 ```
 
 ## Basic example
 
+```php
+Fpdf::AddPage();
 
+// SetFont( Font Name['Courier','Arial'], Font Style['','B','I','U'], Font Size )
+Fpdf::SetFont('Courier', 'B', 18);          
+
+Fpdf::Cell(190, 10, 'User Information',0,1,'C');
+
+Fpdf::SetFont('Courier', 'B', 14);
+
+Fpdf::Cell(10, 10, 'Sn',1,0,'C');
+Fpdf::Cell(35, 10, 'Name',1,0,'C');
+Fpdf::Cell(60, 10, 'Email',1,0,'C');
+Fpdf::Cell(30, 10, 'Phone',1,0,'C');
+Fpdf::Cell(55, 10, 'Address',1,1,'C');
+
+Fpdf::SetFont('Courier', '', 12);
+for($i=1;$i<10;$i++){
+    Fpdf::Cell(10, 10, $i,1,0,'C');
+    Fpdf::Cell(35, 10, 'Farhan Tanvir',1,0,'L');
+    Fpdf::Cell(60, 10, 'farhanswe35@gmail.com',1,0,'L');
+    Fpdf::Cell(30, 10, '01738038356',1,0,'L');
+    Fpdf::Cell(55, 10, 'Dhanmondi Dhaka 1207',1,1,'L');
+}
+
+Fpdf::Output();
+exit();
+
+```
