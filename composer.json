@@ -18,9 +18,6 @@
     },
     "extra": {
         "laravel": {
-            "providers": [
-                "AppHostBD\\Fpdf\\FpdfServiceProvider"
-            ],
             "aliases": {
                 "Fpdf": "AppHostBD\\Fpdf\\Facades\\FpdfFacade"
             }
