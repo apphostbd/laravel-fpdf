@@ -46,17 +46,19 @@ return [
 ```
 
 ## Basic example
-     ## Route Page example
-          ```php
-               Route::get('/', function () {
-                   Fpdf::AddPage();
-                   Fpdf::SetFont('Courier', 'B', 18);
-                   Fpdf::Cell(50, 25, 'Hello World!');
-                   Fpdf::Output();
-                   exit();
-               });
 
-          ```
+### Route Page example
+     
+```php
+     Route::get('/', function () {
+         Fpdf::AddPage();
+         Fpdf::SetFont('Courier', 'B', 18);
+         Fpdf::Cell(50, 25, 'Hello World!');
+         Fpdf::Output();
+         exit();
+     });
+
+```
 
 
 
