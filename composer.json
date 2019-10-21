@@ -3,6 +3,15 @@
     "description": "FPDF is a PHP class which allows to generate PDF files with pure PHP, that is to say without using the PDFlib library. F from FPDF stands for Free: you may use it for any kind of usage and modify it to suit your needs.",
     "type": "library",
     "license": "MIT",
+    "keywords": [
+        "fpdf",
+        "laravel",
+        "pdf"
+    ],
+    "support": {
+        "issues": "https://github.com/apphostbd/laravel-fpdf/issues",
+        "source": "https://github.com/apphostbd/laravel-fpdf"
+    },
     "authors": [
         {
             "name": "Farhan Tanvir",
@@ -10,7 +19,10 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "5.*|6.*"
+    },
     "autoload": {
         "psr-4": {
             "AppHostBD\\Fpdf\\": "src/"
