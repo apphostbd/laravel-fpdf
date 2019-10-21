@@ -108,9 +108,44 @@ Fpdf::Cell(50, 25, 'Hello World!');
 Fpdf::Output();
 exit();
 
-
 ```
 
 ## Basic example
+### Example 1
+```php
+Fpdf::AddPage();
+
+// SetFont( Font Name['Courier','Arial'], Font Style['','B','I','U'], Font Size )
+// Font style empty string: regular, B: bold, I: italic, U: underline
+Fpdf::SetFont('Courier', 'B', 18);          
+
+// Title or Header Page cell( Cell width, Cell height, String text value, border[0,1], Indicates [0,1,3], Text align['L','C','R'] )
+// Text align L or empty string, C: center, R: right align
+Fpdf::Cell(190, 10, 'User Information',0,1,'C');
+
+Fpdf::SetFont('Courier', 'B', 14);
+
+Fpdf::Cell(10, 10, 'Sn',1,0,'C');
+Fpdf::Cell(35, 10, 'Name',1,0,'C');
+Fpdf::Cell(60, 10, 'Email',1,0,'C');
+Fpdf::Cell(30, 10, 'Phone',1,0,'C');
+Fpdf::Cell(55, 10, 'Address',1,1,'C');
+
+Fpdf::SetFont('Courier', '', 12);
+for($i=1;$i<10;$i++){
+    Fpdf::Cell(10, 10, $i,1,0,'C');
+    Fpdf::Cell(35, 10, 'Farhan Tanvir',1,0,'L');
+    Fpdf::Cell(60, 10, 'farhanswe35@gmail.com',1,0,'L');
+    Fpdf::Cell(30, 10, '01738038356',1,0,'L');
+    Fpdf::Cell(55, 10, 'Dhanmondi Dhaka 1207',1,1,'L');
+}
+
+Fpdf::Output();
+exit();
+
+```
+Out put Example 1 click here demo
+Screenshot PDF
+![Demo](https://user-images.githubusercontent.com/53516648/67213448-da0e5480-f43f-11e9-9a34-7cef857389b3.png)
 
 
