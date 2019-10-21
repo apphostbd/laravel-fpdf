@@ -111,13 +111,16 @@ exit();
 ```
 
 ## Basic example
-
+### Example 1
 ```php
 Fpdf::AddPage();
 
 // SetFont( Font Name['Courier','Arial'], Font Style['','B','I','U'], Font Size )
+// Font style empty string: regular, B: bold, I: italic, U: underline
 Fpdf::SetFont('Courier', 'B', 18);          
 
+// Title or Header Page cell( Cell width, Cell height, String text value, border[0,1], Indicates [0,1,3], Text align['L','C','R'] )
+// Text align L or empty string, C: center, R: right align
 Fpdf::Cell(190, 10, 'User Information',0,1,'C');
 
 Fpdf::SetFont('Courier', 'B', 14);
