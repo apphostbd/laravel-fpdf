@@ -47,7 +47,7 @@ return [
     ],
     
     'aliases' => [
-        'Fpdf' => Codedge\Fpdf\Facades\Fpdf::class,
+        'Fpdf' => AppHostBD\Fpdf\Facades\FpdfFacade::class,
      ]
 
 ```
