@@ -52,5 +52,19 @@ return [
 
 ```
 
+### Testing Laravel
+```php
+     Route::get('/', function () {
+         //Fpdf::FPDF();
+         Fpdf::AddPage();
+         Fpdf::SetFont('Courier', 'B', 18);
+         Fpdf::Cell(50, 25, 'Hello World!');
+         Fpdf::Output();
+         exit();
+     });
+     
+```
+
+
 
 
