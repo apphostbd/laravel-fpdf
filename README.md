@@ -145,7 +145,7 @@ exit();
 
 ```
 
-Out put Example 1 click here [Example 1 pdf](src/Fpdf/demo/pdf/example1.pdf "Example 1 pdf")
+Out put Example 1 click here [Example 1 pdf](https://github.com/apphostbd/laravel-fpdf/raw/master/src/Fpdf/demo/pdf/example1.pdf "Example 1 pdf")
 
 Screenshot PDF
 ![Example 1 pdf](src/Fpdf/demo/screenshot/demo1.png)
