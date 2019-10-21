@@ -35,34 +35,28 @@ Enjoy the auto discovery feature.
 `config/app.php`
 
 ```php
+
 // config/app.php
 
 return [
-
-    'providers' => [
-        /*
-         * Application Service Providers...
-         */
-        AppHostBD\Fpdf\FpdfServiceProvider::class,
-    ],
-    
     'aliases' => [
         'Fpdf' => AppHostBD\Fpdf\Facades\FpdfFacade::class,
      ]
 
 ```
 
-### Testing Laravel
-```php
-     Route::get('/', function () {
-         Fpdf::AddPage();
-         Fpdf::SetFont('Courier', 'B', 18);
-         Fpdf::Cell(50, 25, 'Hello World!');
-         Fpdf::Output();
-         exit();
-     });
-     
-```
+## Basic example
+     ## Route Page example
+          ```php
+               Route::get('/', function () {
+                   Fpdf::AddPage();
+                   Fpdf::SetFont('Courier', 'B', 18);
+                   Fpdf::Cell(50, 25, 'Hello World!');
+                   Fpdf::Output();
+                   exit();
+               });
+
+          ```
 
 
 
