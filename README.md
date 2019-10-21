@@ -1,17 +1,19 @@
+# laravel-fpdf
+
 <p align="center">
-     <a href="https://github.com/apphostbd/laravel-fpdf/blob/master/LICENSE" alt="tag">
+     <a href="https://github.com/apphostbd/laravel-fpdf/tags" alt="tag">
         <img src="https://img.shields.io/github/v/tag/apphostbd/laravel-fpdf" alt="tag"/>
       </a> 
-     <a href="https://github.com/apphostbd/laravel-fpdf/blob/master/LICENSE" alt="Total Downloads">
-        <img src="https://img.shields.io/github/downloads/apphostbd/laravel-fpdf/total" alt="Total Downloads"/>
+     <a href="https://packagist.org/packages/apphostbd/laravel-fpdf" alt="Total Downloads">
+        <img src="https://img.shields.io/packagist/dt/apphostbd/laravel-fpdf" alt="Total Downloads"/>
       </a> 
-     <a href="https://github.com/apphostbd/laravel-fpdf/blob/master/LICENSE" alt="Issues">
+     <a href="https://github.com/apphostbd/laravel-fpdf/issues" alt="Issues">
         <img src="https://img.shields.io/github/issues/apphostbd/laravel-fpdf" alt="Issues"/>
       </a>  
-     <a href="https://github.com/apphostbd/laravel-fpdf/blob/master/LICENSE" alt="Forks">
+     <a href="https://github.com/apphostbd/laravel-fpdf/fork" alt="Forks">
         <img src="https://img.shields.io/github/forks/apphostbd/laravel-fpdf"  alt="Forks"/>
       </a>  
-     <a href="https://github.com/apphostbd/laravel-fpdf/blob/master/LICENSE" alt="Stars">
+     <a href="https://github.com/apphostbd/laravel-fpdf/stargazers" alt="Stars">
         <img src="https://img.shields.io/github/stars/apphostbd/laravel-fpdf"  alt="Stars"/>
       </a>  
      <a href="https://github.com/apphostbd/laravel-fpdf/blob/master/LICENSE" alt="License">
@@ -19,7 +21,7 @@
       </a>       
 </p>
 
-# laravel-fpdf
+
 FPDF is a PHP class which allows to generate PDF files with pure PHP, that is to say without using the PDFlib library. F from FPDF stands for Free: you may use it for any kind of usage and modify it to suit your needs.
 ## install
 
