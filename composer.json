@@ -31,7 +31,8 @@
     "extra": {
         "laravel": {
             "aliases": {
-                "Fpdf": "AppHostBD\\Fpdf\\Facades\\FpdfFacade"
+                "Fpdf": "AppHostBD\\Fpdf\\Facades\\FpdfFacade",
+                "FpdfHtml": "AppHostBD\\Fpdf\\Facades\\FpdfHtmlFacade"
             }
         }
     }
